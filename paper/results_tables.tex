@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\caption{Empirical Results Across Experimental Conditions on SQuAD 1.1}
+\label{tab:main_results}
+\begin{tabular}{llccc}
+\hline
+\textbf{Condition} & \textbf{Reranking} & \textbf{Distractors} & \textbf{F1 (\%)} & \textbf{EM (\%)} \\
+\hline
+E1\_1rand\_no\_rerank & unranked & 1 (random) & 88.55 & 80.00 \\
+E3\_3rand\_no\_rerank & unranked & 3 (random) & 81.88 & 73.33 \\
+E5\_5rand\_no\_rerank & unranked & 5 (random) & 75.21 & 66.67 \\
+E\_hard\_3dist\_no\_rerank & unranked & 3 (hard) & 75.21 & 66.67 \\
+E1\_1rand\_reranked & cross\_encoder & 1 (random) & 88.55 & 80.00 \\
+E3\_3rand\_reranked & cross\_encoder & 3 (random) & 75.21 & 66.67 \\
+E5\_5rand\_reranked & cross\_encoder & 5 (random) & 75.21 & 66.67 \\
+E3\_top3\_filtered & cross\_encoder\_filtered & 3 (random) & 75.21 & 66.67 \\
+E5\_top3\_filtered & cross\_encoder\_filtered & 5 (random) & 75.21 & 66.67 \\
+E0\_gold\_only & none & 0 (none) & 81.88 & 73.33 \\
+\hline
+\end{tabular}
+\end{table}

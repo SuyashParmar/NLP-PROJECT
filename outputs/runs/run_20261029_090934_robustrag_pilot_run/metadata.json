@@ -1,0 +1,14 @@
+{
+  "run_id": "run_20261029_090934_robustrag_pilot_run",
+  "status": "completed",
+  "is_smoke_test": false,
+  "experiment_name": "robustrag_pilot_run",
+  "timestamp": "2026-10-29T09:26:15.323019",
+  "sample_size": 15,
+  "random_seed": 42,
+  "generator_backend": "groq",
+  "generator_model": "google/flan-t5-small",
+  "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+  "python_version": "3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit"
+}

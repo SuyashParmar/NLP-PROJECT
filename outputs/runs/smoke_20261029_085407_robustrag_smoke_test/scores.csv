@@ -1,0 +1,8 @@
+condition_id,experiment_block,distractor_count,distractor_type,reranking_method,n_samples,valid_samples,mean_f1,exact_match_pct
+E1_1rand_no_rerank,A,1,random,unranked,5,5,0.0,0.0
+E3_3rand_no_rerank,A,3,random,unranked,5,5,0.0,0.0
+E_hard_2dist_no_rerank,B,2,hard,unranked,5,5,0.0,0.0
+E1_1rand_reranked,C,1,random,cross_encoder,5,5,0.0,0.0
+E3_3rand_reranked,C,3,random,cross_encoder,5,5,0.0,0.0
+E3_top2_filtered,D,3,random,cross_encoder_filtered,5,5,0.0,0.0
+E0_gold_only,baseline,0,none,none,5,5,0.0,0.0

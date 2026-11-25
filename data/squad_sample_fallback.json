@@ -1,0 +1,202 @@
+[
+  {
+    "id": "56be4e1daf4b1a19005a021b",
+    "title": "Super_Bowl_50",
+    "context": "Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24\u201310 to earn their third Super Bowl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the \"golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as \"Super Bowl L\"), so that the logo could prominently feature the Arabic numerals 50.",
+    "question": "Which NFL team won Super Bowl 50?",
+    "answers": {
+      "text": ["Denver Broncos", "Denver Broncos", "Denver Broncos"],
+      "answer_start": [177, 177, 177]
+    }
+  },
+  {
+    "id": "56be4e1daf4b1a19005a021c",
+    "title": "Super_Bowl_50",
+    "context": "Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24\u201310 to earn their third Super Bowl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the \"golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as \"Super Bowl L\"), so that the logo could prominently feature the Arabic numerals 50.",
+    "question": "Which NFL team was defeated in Super Bowl 50?",
+    "answers": {
+      "text": ["Carolina Panthers", "Carolina Panthers", "Carolina Panthers"],
+      "answer_start": [249, 249, 249]
+    }
+  },
+  {
+    "id": "56be4e1daf4b1a19005a021d",
+    "title": "Super_Bowl_50",
+    "context": "Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24\u201310 to earn their third Super Bowl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the \"golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as \"Super Bowl L\"), so that the logo could prominently feature the Arabic numerals 50.",
+    "question": "Where was Super Bowl 50 played?",
+    "answers": {
+      "text": ["Levi's Stadium", "Levi's Stadium in the San Francisco Bay Area at Santa Clara, California", "Levi's Stadium"],
+      "answer_start": [334, 334, 334]
+    }
+  },
+  {
+    "id": "56be4e1daf4b1a19005a021e",
+    "title": "Super_Bowl_50",
+    "context": "Super Bowl 50 was an American football game to determine the champion of the National Football League (NFL) for the 2015 season. The American Football Conference (AFC) champion Denver Broncos defeated the National Football Conference (NFC) champion Carolina Panthers 24\u201310 to earn their third Super Bowl title. The game was played on February 7, 2016, at Levi's Stadium in the San Francisco Bay Area at Santa Clara, California. As this was the 50th Super Bowl, the league emphasized the \"golden anniversary\" with various gold-themed initiatives, as well as temporarily suspending the tradition of naming each Super Bowl game with Roman numerals (under which the game would have been known as \"Super Bowl L\"), so that the logo could prominently feature the Arabic numerals 50.",
+    "question": "What date was Super Bowl 50 played on?",
+    "answers": {
+      "text": ["February 7, 2016", "February 7, 2016", "February 7, 2016"],
+      "answer_start": [310, 310, 310]
+    }
+  },
+  {
+    "id": "56be4f1a3aeaaa14008c9080",
+    "title": "Super_Bowl_50",
+    "context": "The Panthers finished the regular season with a 15\u20131 record, and quarterback Cam Newton was named the NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49\u201315 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regular season with a 12\u20134 record, and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20\u201318 in the AFC Championship Game. They joined the New England Patriots, Pittsburgh Steelers, and Dallas Cowboys as one of four teams to have made eight Super Bowl appearances.",
+    "question": "What was the Carolina Panthers' regular season record?",
+    "answers": {
+      "text": ["15\u20131", "15\u20131", "15\u20131"],
+      "answer_start": [48, 48, 48]
+    }
+  },
+  {
+    "id": "56be4f1a3aeaaa14008c9081",
+    "title": "Super_Bowl_50",
+    "context": "The Panthers finished the regular season with a 15\u20131 record, and quarterback Cam Newton was named the NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49\u201315 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regular season with a 12\u20134 record, and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20\u201318 in the AFC Championship Game. They joined the New England Patriots, Pittsburgh Steelers, and Dallas Cowboys as one of four teams to have made eight Super Bowl appearances.",
+    "question": "Who was named NFL MVP for the 2015 season?",
+    "answers": {
+      "text": ["Cam Newton", "Cam Newton", "Cam Newton"],
+      "answer_start": [87, 87, 87]
+    }
+  },
+  {
+    "id": "56be4f1a3aeaaa14008c9082",
+    "title": "Super_Bowl_50",
+    "context": "The Panthers finished the regular season with a 15\u20131 record, and quarterback Cam Newton was named the NFL Most Valuable Player (MVP). They defeated the Arizona Cardinals 49\u201315 in the NFC Championship Game and advanced to their second Super Bowl appearance since the franchise was founded in 1995. The Broncos finished the regular season with a 12\u20134 record, and denied the New England Patriots a chance to defend their title from Super Bowl XLIX by defeating them 20\u201318 in the AFC Championship Game. They joined the New England Patriots, Pittsburgh Steelers, and Dallas Cowboys as one of four teams to have made eight Super Bowl appearances.",
+    "question": "What was the Denver Broncos' regular season record in 2015?",
+    "answers": {
+      "text": ["12\u20134", "12\u20134", "12\u20134"],
+      "answer_start": [308, 308, 308]
+    }
+  },
+  {
+    "id": "56be50573aeaaa14008c9096",
+    "title": "Super_Bowl_50",
+    "context": "CBS broadcast Super Bowl 50 in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The Super Bowl 50 halftime show was headlined by the British rock band Coldplay with special guest performers Beyonc\u00e9 and Bruno Mars, who previously had headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively. It was the third-most watched broadcast in American television history.",
+    "question": "Which television network broadcast Super Bowl 50?",
+    "answers": {
+      "text": ["CBS", "CBS", "CBS"],
+      "answer_start": [0, 0, 0]
+    }
+  },
+  {
+    "id": "56be50573aeaaa14008c9097",
+    "title": "Super_Bowl_50",
+    "context": "CBS broadcast Super Bowl 50 in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The Super Bowl 50 halftime show was headlined by the British rock band Coldplay with special guest performers Beyonc\u00e9 and Bruno Mars, who previously had headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively. It was the third-most watched broadcast in American television history.",
+    "question": "Who headlined the Super Bowl 50 halftime show?",
+    "answers": {
+      "text": ["Coldplay", "Coldplay", "Coldplay"],
+      "answer_start": [181, 181, 181]
+    }
+  },
+  {
+    "id": "56be50573aeaaa14008c9098",
+    "title": "Super_Bowl_50",
+    "context": "CBS broadcast Super Bowl 50 in the U.S., and charged an average of $5 million for a 30-second commercial during the game. The Super Bowl 50 halftime show was headlined by the British rock band Coldplay with special guest performers Beyonc\u00e9 and Bruno Mars, who previously had headlined the Super Bowl XLVII and Super Bowl XLVIII halftime shows, respectively. It was the third-most watched broadcast in American television history.",
+    "question": "How much was charged for a 30-second commercial during Super Bowl 50?",
+    "answers": {
+      "text": ["$5 million", "$5 million", "an average of $5 million"],
+      "answer_start": [50, 50, 36]
+    }
+  },
+  {
+    "id": "56bf10f43aeaaa14008c94fa",
+    "title": "Warsaw",
+    "context": "Warsaw is the capital and largest city of Poland. It is located on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres (190 mi) from the Carpathian Mountains. Its population is estimated at 1,748,916 residents within a greater metropolitan area of 2,666,278 residents, which makes Warsaw the 9th most-populous capital city in the European Union. The city area amounts to 516.9 square kilometres (199.6 sq mi), while the metropolitan area covers 6,100.43 square kilometres (2,355.4 sq mi).",
+    "question": "What is the capital city of Poland?",
+    "answers": {
+      "text": ["Warsaw", "Warsaw", "Warsaw"],
+      "answer_start": [0, 0, 0]
+    }
+  },
+  {
+    "id": "56bf10f43aeaaa14008c94fb",
+    "title": "Warsaw",
+    "context": "Warsaw is the capital and largest city of Poland. It is located on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres (190 mi) from the Carpathian Mountains. Its population is estimated at 1,748,916 residents within a greater metropolitan area of 2,666,278 residents, which makes Warsaw the 9th most-populous capital city in the European Union. The city area amounts to 516.9 square kilometres (199.6 sq mi), while the metropolitan area covers 6,100.43 square kilometres (2,355.4 sq mi).",
+    "question": "On which river is Warsaw located?",
+    "answers": {
+      "text": ["Vistula River", "Vistula", "the Vistula River"],
+      "answer_start": [71, 71, 67]
+    }
+  },
+  {
+    "id": "56bf10f43aeaaa14008c94fc",
+    "title": "Warsaw",
+    "context": "Warsaw is the capital and largest city of Poland. It is located on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres (190 mi) from the Carpathian Mountains. Its population is estimated at 1,748,916 residents within a greater metropolitan area of 2,666,278 residents, which makes Warsaw the 9th most-populous capital city in the European Union. The city area amounts to 516.9 square kilometres (199.6 sq mi), while the metropolitan area covers 6,100.43 square kilometres (2,355.4 sq mi).",
+    "question": "What is the population of Warsaw within city limits?",
+    "answers": {
+      "text": ["1,748,916", "1,748,916", "1,748,916 residents"],
+      "answer_start": [287, 287, 287]
+    }
+  },
+  {
+    "id": "56bf15063aeaaa14008c950a",
+    "title": "Apollo_8",
+    "context": "Apollo 8, the second human spaceflight mission in the United States Apollo space program, was launched on December 21, 1968, and became the first crewed spacecraft to leave low Earth orbit, reach the Moon, orbit it, and return safely to Earth. The three-astronaut crew\u2014Frank Borman, James Lovell, and William Anders\u2014were the first humans to travel beyond low Earth orbit, the first to see Earth as a whole planet, the first to directly see the far side of the Moon, and then the first to witness an Earthrise.",
+    "question": "When was Apollo 8 launched?",
+    "answers": {
+      "text": ["December 21, 1968", "December 21, 1968", "December 21, 1968"],
+      "answer_start": [108, 108, 108]
+    }
+  },
+  {
+    "id": "56bf15063aeaaa14008c950b",
+    "title": "Apollo_8",
+    "context": "Apollo 8, the second human spaceflight mission in the United States Apollo space program, was launched on December 21, 1968, and became the first crewed spacecraft to leave low Earth orbit, reach the Moon, orbit it, and return safely to Earth. The three-astronaut crew\u2014Frank Borman, James Lovell, and William Anders\u2014were the first humans to travel beyond low Earth orbit, the first to see Earth as a whole planet, the first to directly see the far side of the Moon, and then the first to witness an Earthrise.",
+    "question": "Who was commander of the Apollo 8 mission?",
+    "answers": {
+      "text": ["Frank Borman", "Frank Borman", "Frank Borman"],
+      "answer_start": [267, 267, 267]
+    }
+  },
+  {
+    "id": "56d20362e7d4791d00e0e5d0",
+    "title": "Nikola_Tesla",
+    "context": "Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system. Born and raised in the Austrian Empire, Tesla studied engineering and physics in the 1870s without receiving a degree, and gained practical experience in the early 1880s working in telephony and at Continental Edison in the new electric power industry. He emigrated in 1884 to the United States, where he became a naturalized citizen.",
+    "question": "What electricity system did Nikola Tesla contribute to?",
+    "answers": {
+      "text": ["alternating current", "alternating current (AC)", "alternating current (AC) electricity supply system"],
+      "answer_start": [164, 164, 164]
+    }
+  },
+  {
+    "id": "56d20362e7d4791d00e0e5d1",
+    "title": "Nikola_Tesla",
+    "context": "Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system. Born and raised in the Austrian Empire, Tesla studied engineering and physics in the 1870s without receiving a degree, and gained practical experience in the early 1880s working in telephony and at Continental Edison in the new electric power industry. He emigrated in 1884 to the United States, where he became a naturalized citizen.",
+    "question": "When did Nikola Tesla emigrate to the United States?",
+    "answers": {
+      "text": ["1884", "1884", "in 1884"],
+      "answer_start": [468, 468, 465]
+    }
+  },
+  {
+    "id": "56d20362e7d4791d00e0e5d2",
+    "title": "Nikola_Tesla",
+    "context": "Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system. Born and raised in the Austrian Empire, Tesla studied engineering and physics in the 1870s without receiving a degree, and gained practical experience in the early 1880s working in telephony and at Continental Edison in the new electric power industry. He emigrated in 1884 to the United States, where he became a naturalized citizen.",
+    "question": "Where was Nikola Tesla born and raised?",
+    "answers": {
+      "text": ["the Austrian Empire", "Austrian Empire", "the Austrian Empire"],
+      "answer_start": [238, 242, 238]
+    }
+  },
+  {
+    "id": "56d498ad2ccc5a1400d8323c",
+    "title": "Computational_complexity_theory",
+    "context": "In computer science, computational complexity theory is a subfield of theoretical computer science that focuses on classifying computational problems according to their resource usage, and relating these classes to each other. A computational problem is a task solved by a computer. A computation problem is solvable by mechanical application of mathematical steps, such as an algorithm. The complexity classes P and NP are among the most studied in the field.",
+    "question": "What are two of the most studied complexity classes?",
+    "answers": {
+      "text": ["P and NP", "P and NP", "P and NP"],
+      "answer_start": [390, 390, 390]
+    }
+  },
+  {
+    "id": "56d498ad2ccc5a1400d8323d",
+    "title": "Computational_complexity_theory",
+    "context": "In computer science, computational complexity theory is a subfield of theoretical computer science that focuses on classifying computational problems according to their resource usage, and relating these classes to each other. A computational problem is a task solved by a computer. A computation problem is solvable by mechanical application of mathematical steps, such as an algorithm. The complexity classes P and NP are among the most studied in the field.",
+    "question": "What is a computational problem?",
+    "answers": {
+      "text": ["a task solved by a computer", "a task solved by a computer", "A computational problem is a task solved by a computer"],
+      "answer_start": [245, 245, 222]
+    }
+  }
+]

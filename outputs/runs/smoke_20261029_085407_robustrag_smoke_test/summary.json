@@ -1,0 +1,88 @@
+{
+  "run_id": "smoke_20261029_085407_robustrag_smoke_test",
+  "bootstrap_ci": {},
+  "retrieval_diagnostics": {
+    "recall_at_1": 1.0,
+    "recall_at_3": 1.0,
+    "total_evaluated_queries": 5
+  },
+  "conditions_summary": [
+    {
+      "condition_id": "E1_1rand_no_rerank",
+      "experiment_block": "A",
+      "distractor_count": 1,
+      "distractor_type": "random",
+      "reranking_method": "unranked",
+      "n_samples": 5,
+      "valid_samples": 5,
+      "mean_f1": 0.0,
+      "exact_match_pct": 0.0
+    },
+    {
+      "condition_id": "E3_3rand_no_rerank",
+      "experiment_block": "A",
+      "distractor_count": 3,
+      "distractor_type": "random",
+      "reranking_method": "unranked",
+      "n_samples": 5,
+      "valid_samples": 5,
+      "mean_f1": 0.0,
+      "exact_match_pct": 0.0
+    },
+    {
+      "condition_id": "E_hard_2dist_no_rerank",
+      "experiment_block": "B",
+      "distractor_count": 2,
+      "distractor_type": "hard",
+      "reranking_method": "unranked",
+      "n_samples": 5,
+      "valid_samples": 5,
+      "mean_f1": 0.0,
+      "exact_match_pct": 0.0
+    },
+    {
+      "condition_id": "E1_1rand_reranked",
+      "experiment_block": "C",
+      "distractor_count": 1,
+      "distractor_type": "random",
+      "reranking_method": "cross_encoder",
+      "n_samples": 5,
+      "valid_samples": 5,
+      "mean_f1": 0.0,
+      "exact_match_pct": 0.0
+    },
+    {
+      "condition_id": "E3_3rand_reranked",
+      "experiment_block": "C",
+      "distractor_count": 3,
+      "distractor_type": "random",
+      "reranking_method": "cross_encoder",
+      "n_samples": 5,
+      "valid_samples": 5,
+      "mean_f1": 0.0,
+      "exact_match_pct": 0.0
+    },
+    {
+      "condition_id": "E3_top2_filtered",
+      "experiment_block": "D",
+      "distractor_count": 3,
+      "distractor_type": "random",
+      "reranking_method": "cross_encoder_filtered",
+      "n_samples": 5,
+      "valid_samples": 5,
+      "mean_f1": 0.0,
+      "exact_match_pct": 0.0
+    },
+    {
+      "condition_id": "E0_gold_only",
+      "experiment_block": "baseline",
+      "distractor_count": 0,
+      "distractor_type": "none",
+      "reranking_method": "none",
+      "n_samples": 5,
+      "valid_samples": 5,
+      "mean_f1": 0.0,
+      "exact_match_pct": 0.0
+    }
+  ]
+}

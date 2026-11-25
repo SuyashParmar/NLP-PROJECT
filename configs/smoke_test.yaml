@@ -1,0 +1,53 @@
+# RobustRAG Smoke Test Configuration
+# Rapid pipeline and orchestration check
+
+experiment:
+  name: "robustrag_smoke_test"
+  description: "Rapid end-to-end orchestration smoke test"
+  random_seed: 42
+  is_smoke_test: true
+
+dataset:
+  name: "squad"
+  split: "validation"
+  sample_size: 5
+  cache_dir: "./.cache/datasets"
+  fallback_path: "./data/squad_sample_fallback.json"
+
+models:
+  generator:
+    backend: "mock"               # Smoke test default: fast mock generator
+    model_name: "mock/generator"
+    max_input_length: 512
+    max_new_tokens: 32
+    temperature: 0.0
+    do_sample: false
+  reranker:
+    backend: "mock"               # Smoke test default: fast mock reranker
+    model_name: "mock/cross-encoder"
+    batch_size: 4
+
+noise_settings:
+  quantities: [0, 1, 3]
+  distractor_types: ["random", "hard"]
+  fixed_distractor_count: 2
+  hard_distractor_pool_size: 5
+
+experiments:
+  run_experiment_a: true
+  run_experiment_b: true
+  run_experiment_c: true
+  run_experiment_d: true
+  top_k_filter: 2
+  run_retrieval_realistic: true
+  realistic_retrieval_k: [1, 3]
+
+evaluation:
+  metrics: ["f1", "exact_match"]
+  bootstrap_iterations: 100
+  confidence_level: 0.95
+  bootstrap_seed: 42
+
+storage:
+  output_dir: "./outputs/runs"
+  cache_inference: false

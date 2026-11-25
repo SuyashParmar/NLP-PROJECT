@@ -1,0 +1,131 @@
+{
+  "run_id": "run_20261029_090934_robustrag_pilot_run",
+  "bootstrap_ci": {
+    "distractor_type_hard_vs_rand": {
+      "mean_diff": -0.0667,
+      "ci_lower": -0.2,
+      "ci_upper": 0.0,
+      "confidence_level": 0.95,
+      "iterations": 500,
+      "is_significant": false
+    }
+  },
+  "retrieval_diagnostics": {
+    "recall_at_1": 0.6667,
+    "recall_at_3": 0.8667,
+    "recall_at_5": 0.8667,
+    "total_evaluated_queries": 15
+  },
+  "conditions_summary": [
+    {
+      "condition_id": "E1_1rand_no_rerank",
+      "experiment_block": "A",
+      "distractor_count": 1,
+      "distractor_type": "random",
+      "reranking_method": "unranked",
+      "n_samples": 15,
+      "valid_samples": 15,
+      "mean_f1": 0.8855,
+      "exact_match_pct": 80.0
+    },
+    {
+      "condition_id": "E3_3rand_no_rerank",
+      "experiment_block": "A",
+      "distractor_count": 3,
+      "distractor_type": "random",
+      "reranking_method": "unranked",
+      "n_samples": 15,
+      "valid_samples": 15,
+      "mean_f1": 0.8188,
+      "exact_match_pct": 73.33
+    },
+    {
+      "condition_id": "E5_5rand_no_rerank",
+      "experiment_block": "A",
+      "distractor_count": 5,
+      "distractor_type": "random",
+      "reranking_method": "unranked",
+      "n_samples": 15,
+      "valid_samples": 14,
+      "mean_f1": 0.7521,
+      "exact_match_pct": 66.67
+    },
+    {
+      "condition_id": "E_hard_3dist_no_rerank",
+      "experiment_block": "B",
+      "distractor_count": 3,
+      "distractor_type": "hard",
+      "reranking_method": "unranked",
+      "n_samples": 15,
+      "valid_samples": 15,
+      "mean_f1": 0.7521,
+      "exact_match_pct": 66.67
+    },
+    {
+      "condition_id": "E1_1rand_reranked",
+      "experiment_block": "C",
+      "distractor_count": 1,
+      "distractor_type": "random",
+      "reranking_method": "cross_encoder",
+      "n_samples": 15,
+      "valid_samples": 15,
+      "mean_f1": 0.8855,
+      "exact_match_pct": 80.0
+    },
+    {
+      "condition_id": "E3_3rand_reranked",
+      "experiment_block": "C",
+      "distractor_count": 3,
+      "distractor_type": "random",
+      "reranking_method": "cross_encoder",
+      "n_samples": 15,
+      "valid_samples": 14,
+      "mean_f1": 0.7521,
+      "exact_match_pct": 66.67
+    },
+    {
+      "condition_id": "E5_5rand_reranked",
+      "experiment_block": "C",
+      "distractor_count": 5,
+      "distractor_type": "random",
+      "reranking_method": "cross_encoder",
+      "n_samples": 15,
+      "valid_samples": 15,
+      "mean_f1": 0.7521,
+      "exact_match_pct": 66.67
+    },
+    {
+      "condition_id": "E3_top3_filtered",
+      "experiment_block": "D",
+      "distractor_count": 3,
+      "distractor_type": "random",
+      "reranking_method": "cross_encoder_filtered",
+      "n_samples": 15,
+      "valid_samples": 14,
+      "mean_f1": 0.7521,
+      "exact_match_pct": 66.67
+    },
+    {
+      "condition_id": "E5_top3_filtered",
+      "experiment_block": "D",
+      "distractor_count": 5,
+      "distractor_type": "random",
+      "reranking_method": "cross_encoder_filtered",
+      "n_samples": 15,
+      "valid_samples": 15,
+      "mean_f1": 0.7521,
+      "exact_match_pct": 66.67
+    },
+    {
+      "condition_id": "E0_gold_only",
+      "experiment_block": "baseline",
+      "distractor_count": 0,
+      "distractor_type": "none",
+      "reranking_method": "none",
+      "n_samples": 15,
+      "valid_samples": 15,
+      "mean_f1": 0.8188,
+      "exact_match_pct": 73.33
+    }
+  ]
+}

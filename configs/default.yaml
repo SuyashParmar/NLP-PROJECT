@@ -1,0 +1,53 @@
+# RobustRAG Default Experiment Configuration
+# Full evaluation setup for empirical research
+
+experiment:
+  name: "robustrag_full_evaluation"
+  description: "Controlled study of irrelevant document quantity, distractor type, and cross-encoder reranking"
+  random_seed: 42
+
+dataset:
+  name: "squad"
+  split: "validation"
+  sample_size: 100
+  cache_dir: "./.cache/datasets"
+  fallback_path: "./data/squad_sample_fallback.json"
+
+models:
+  generator:
+    backend: "local"              # "local", "groq", or "mock"
+    model_name: "google/flan-t5-small"
+    groq_model: "qwen/qwen3.8-27b"
+    max_input_length: 1024
+    max_new_tokens: 32
+    temperature: 0.0             # Deterministic decoding
+    do_sample: false
+  reranker:
+    backend: "local"              # "local" or "mock"
+    model_name: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+    batch_size: 16
+
+noise_settings:
+  quantities: [0, 1, 3, 5]        # E0 (0), E1 (1), E2 (3), E3 (5)
+  distractor_types: ["random", "hard"]
+  fixed_distractor_count: 3       # For distractor type comparison (Exp B)
+  hard_distractor_pool_size: 10   # BM25 candidates to filter for hard distractors
+
+experiments:
+  run_experiment_a: true          # Noise quantity: [0, 1, 3, 5] random distractors
+  run_experiment_b: true          # Distractor type: random vs hard at 3 distractors
+  run_experiment_c: true          # Reranking: no_rerank vs cross_encoder reranking
+  run_experiment_d: true          # Filtering ablation: rerank + top-k (k=3)
+  top_k_filter: 3
+  run_retrieval_realistic: true   # Separate BM25 retrieval Recall@k evaluation
+  realistic_retrieval_k: [1, 3, 5, 10]
+
+evaluation:
+  metrics: ["f1", "exact_match"]
+  bootstrap_iterations: 1000
+  confidence_level: 0.95
+  bootstrap_seed: 42
+
+storage:
+  output_dir: "./outputs/runs"
+  cache_inference: true

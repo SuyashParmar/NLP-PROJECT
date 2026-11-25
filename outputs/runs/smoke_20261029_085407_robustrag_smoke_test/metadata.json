@@ -1,0 +1,14 @@
+{
+  "run_id": "smoke_20261029_085407_robustrag_smoke_test",
+  "status": "completed",
+  "is_smoke_test": true,
+  "experiment_name": "robustrag_smoke_test",
+  "timestamp": "2026-10-29T08:54:10.392838",
+  "sample_size": 5,
+  "random_seed": 42,
+  "generator_backend": "mock",
+  "generator_model": "mock/generator",
+  "reranker_model": "mock/cross-encoder",
+  "python_version": "3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit"
+}
